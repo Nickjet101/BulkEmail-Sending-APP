@@ -1,6 +1,7 @@
 # BulkEmail-Sending-APP
 
 #Below is the source code
+#Recipients Emails used for testing: soulcleansing96@gmail.com, etoontop@gmail.com, ionyolu2757@gmail.com, okaalive@gmail.com
 
 import smtplib
 from email.message import EmailMessage
@@ -29,4 +30,4 @@ with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=bulk) as mybulk:
     print(f"Hello {name.capitalize()}, your mail is sent successfully")
 
 
-#soulcleansing96@gmail.com, etoontop@gmail.com, ionyolu2757@gmail.com, okaalive@gmail.com
+
